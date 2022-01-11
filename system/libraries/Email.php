@@ -55,7 +55,7 @@ class CI_Email {
 	 *
 	 * @var	string
 	 */
-	public $useragent	= 'HealmeMailer';
+	public $useragent	= 'CodeIgniter';
 
 	/**
 	 * Path to the Sendmail binary.
