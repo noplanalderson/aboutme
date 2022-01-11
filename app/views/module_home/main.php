@@ -1,68 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Muhammad Ridwan Na'im</title>
-  <meta content="Profil Muhammad Ridwan Na'im" name="description">
-  <meta content="web profile, curriculum vitae, muhammad ridwan na'im, ridwannaim, debu semesta, biodata" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/icon.ico" rel="icon">
-  <link href="assets/img/icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button>
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-      <div class="container" data-aos="zoom-in" data-aos-delay="100">
-        <h1 class="text-white">Muhammad Ridwan Na'im</h1>
-        <p class="text-white">mrnaeem@world:~$ <span class="typed text-primary" data-typed-items="Hi there!, I'm Ridwan, I'm SysAdmin, Web Programmer, Computer Engineer, Freelancer"></span></p>
-        <div class="social-links">
-          <a href="https://instagram.com/__debu_semesta" class="instagram" target="_blank" rel="noopener"><i class="bx bxl-instagram"></i></a>
-          <a href="https://rootdicalism.wordpress.com/" class="" target="_blank" rel="noopener"><i class="bx bx-globe"></i></a>
-          <a href="https://www.linkedin.com/in/ridwan-naim-8166a4124/" class="linkedin" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-  </section>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');?>
 
   <main id="main">
 
@@ -77,7 +14,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.webp" class="img-fluid rounded-circle" alt="Muhammad Ridwan Na'im">
+            <img src="<?= site_url('_/img/profile-img.webp') ?>" class="img-fluid rounded-circle" alt="Muhammad Ridwan Na'im">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Sys Admin & Web Developer.</h3>
@@ -322,13 +259,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/simonster.webp" class="img-fluid" alt="SIMONSTER">
+              <img src="<?= site_url('_/img/portfolio/simonster.webp') ?>" class="img-fluid" alt="SIMONSTER">
               <div class="portfolio-info">
                 <h4>SIMONSTER</h4>
                 <p>Sistem Monitoring Suhu Data Center</p>
                 <small>(Local Network)</small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/simonster.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIMONSTER"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/simonster.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIMONSTER"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -337,13 +274,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pihole.webp" class="img-fluid" alt="pihole">
+              <img src="<?= site_url('_/img/portfolio/pihole.webp') ?>" class="img-fluid" alt="pihole">
               <div class="portfolio-info">
                 <h4>DNS Sinkhole</h4>
                 <p>DNS Sinkhole for Network with PiHole</p>
                 <small>(Local Network)</small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/pihole.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="pihole"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/pihole.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="pihole"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -352,13 +289,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/sasuke.webp" class="img-fluid" alt="Sasuke">
+              <img src="<?= site_url('_/img/portfolio/sasuke.webp') ?>" class="img-fluid" alt="Sasuke">
               <div class="portfolio-info">
                 <h4>SASUKE</h4>
                 <p>Sistem Aplikasi Surat Kematian</p>
                 <small><a href="http://146.196.106.21/sasuke-2.0.1/login" title="Sasuke" target="_blank" rel="noopener nofollow noreferrer"> SASUKE in Puskesmas Kecamatan Kalideres</a></small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sasuke.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sasuke"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/sasuke.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sasuke"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -367,13 +304,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/simasjid.webp" class="img-fluid" alt="SIMASJID">
+              <img src="<?= site_url('_/img/portfolio/simasjid.webp') ?>" class="img-fluid" alt="SIMASJID">
               <div class="portfolio-info">
                 <h4>SIMASJID</h4>
                 <p>Sistem Informasi dan Manajemen Masjid in IN-BALI.COM</p>
                 <small><a href="https://rkp.in-bali.com/" title="Sasuke" target="_blank" rel="noopener nofollow noreferrer"> SIMASJID IN-BALI.COM</a></small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/simasjid.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIMASJID"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/simasjid.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIMASJID"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -382,13 +319,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/dcim.webp" class="img-fluid" alt="DCIM">
+              <img src="<?= site_url('_/img/portfolio/dcim.webp') ?>" class="img-fluid" alt="DCIM">
               <div class="portfolio-info">
                 <h4>DCIM</h4>
                 <p>Data Center Infrastructure Management DISKOMINFO Kota Tangerang</p>
                 <small>(Local Network)</small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/dcim.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DCIM"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/dcim.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DCIM"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -397,13 +334,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/sidota.webp" class="img-fluid" alt="SIDOTA">
+              <img src="<?= site_url('_/img/portfolio/sidota.webp') ?>" class="img-fluid" alt="SIDOTA">
               <div class="portfolio-info">
                 <h4>SIDOTA</h4>
                 <p>Sistem Dokumentasi Data Center DISKOMINFO Kota Tangerang</p>
                 <small>(Local Network)</small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sidota.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIDOTA"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/sidota.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SIDOTA"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -412,12 +349,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-server">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/so1.webp" class="img-fluid" alt="Kibana Security Onion">
+              <img src="<?= site_url('_/img/portfolio/so1.webp') ?>" class="img-fluid" alt="Kibana Security Onion">
               <div class="portfolio-info">
                 <h4>Kibana Dashboard</h4>
                 <p>NSM with Security Onion for Data Center DISKOMINFO Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/so1.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kibana Security Onion"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/so1.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kibana Security Onion"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -426,12 +363,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-server">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/so2.webp" class="img-fluid" alt="Squert Security Onion">
+              <img src="<?= site_url('_/img/portfolio/so2.webp') ?>" class="img-fluid" alt="Squert Security Onion">
               <div class="portfolio-info">
                 <h4>Squert</h4>
                 <p>NSM with Security Onion for Data Center DISKOMINFO Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/so2.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Squert Security Onion"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/so2.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Squert Security Onion"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -440,12 +377,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-server">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/sysadmin3.webp" class="img-fluid" alt="Server Installation">
+              <img src="<?= site_url('_/img/portfolio/sysadmin3.webp') ?>" class="img-fluid" alt="Server Installation">
               <div class="portfolio-info">
                 <h4>Server Installation</h4>
                 <p>Proxmox VE Installation on Server</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sysadmin3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Server Installation"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/sysadmin3.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Server Installation"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -454,12 +391,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-server">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/sysadmin2.webp" class="img-fluid" alt="Server Config">
+              <img src="<?= site_url('_/img/portfolio/sysadmin2.webp') ?>" class="img-fluid" alt="Server Config">
               <div class="portfolio-info">
                 <h4>Server Configuration</h4>
                 <p>Configure a webserver in Puspem Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sysadmin2.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Server Config"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/sysadmin2.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Server Config"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -468,12 +405,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-server">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/elastic.webp" class="img-fluid" alt="Elasticsearch">
+              <img src="<?= site_url('_/img/portfolio/elastic.webp') ?>" class="img-fluid" alt="Elasticsearch">
               <div class="portfolio-info">
                 <h4>Elasticsearch Implemetaion for Server Logging</h4>
                 <p>Configure elasticsearch with kibana dashboard for webserver and database centralized logging</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/elastic.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Elasticsearch"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/elastic.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Elasticsearch"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -482,13 +419,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/smafajrulislam.webp" class="img-fluid" alt="SMA Fajrul Islam">
+              <img src="<?= site_url('_/img/portfolio/smafajrulislam.webp') ?>" class="img-fluid" alt="SMA Fajrul Islam">
               <div class="portfolio-info">
                 <h4>SMA Fajrul Islam</h4>
                 <p>Official Website & Application PPDB of SMA Fajrul Islam</p>
                 <small><a href="https://smafajrulislam.com" title="SMA Fajrul Islam" target="_blank" rel="noopener nofollow noreferrer"> SMA Fajrul Islam</a></small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/smafajrulislam.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SMA Fajrul Islam"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/smafajrulislam.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SMA Fajrul Islam"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -497,13 +434,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/healme.webp" class="img-fluid" alt="Healme">
+              <img src="<?= site_url('_/img/portfolio/healme.webp') ?>" class="img-fluid" alt="Healme">
               <div class="portfolio-info">
                 <h4>Healme.id</h4>
                 <p>Official Website Healme Indonesia</p>
                 <small><a href="https://healme.id" title="Healme" target="_blank" rel="noopener nofollow noreferrer"> Healme Indonesia</a></small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/healme.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Healme"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/healme.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Healme"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -512,13 +449,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/govcsirt.webp" class="img-fluid" alt="Govcsirt">
+              <img src="<?= site_url('_/img/portfolio/govcsirt.webp') ?>" class="img-fluid" alt="Govcsirt">
               <div class="portfolio-info">
                 <h4>GovCSRIT Kota Tangerang</h4>
                 <p>Official Website of GovCSIRT Kota Tangerang</p>
                 <small><a href="https://govcsirt.tangerangkota.go.id" title="Govcsirt" target="_blank" rel="noopener nofollow noreferrer"> GovCSIRT Kota Tangerang</a></small>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/govcsirt.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Govcsirt"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/govcsirt.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Govcsirt"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -527,12 +464,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/networking1.webp" class="img-fluid" alt="Networking">
+              <img src="<?= site_url('_/img/portfolio/networking1.webp') ?>" class="img-fluid" alt="Networking">
               <div class="portfolio-info">
                 <h4>Network Troubleshooting</h4>
                 <p>Network Troubleshooting at Puspem Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/networking1.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/networking1.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -541,12 +478,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/networking3.webp" class="img-fluid" alt="Networking">
+              <img src="<?= site_url('_/img/portfolio/networking3.webp') ?>" class="img-fluid" alt="Networking">
               <div class="portfolio-info">
                 <h4>Network Configuration</h4>
                 <p>Network Configuration at Puspem Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/networking3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/networking3.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -555,12 +492,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/networking2.webp" class="img-fluid" alt="Networking">
+              <img src="<?= site_url('_/img/portfolio/networking2.webp') ?>" class="img-fluid" alt="Networking">
               <div class="portfolio-info">
                 <h4>Network Installation</h4>
                 <p>Network Installation at DPMPTSP Kota Tangerang</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/networking2.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/networking2.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Networking"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -569,12 +506,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-hardware">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/engineer1.webp" class="img-fluid" alt="Engineer">
+              <img src="<?= site_url('_/img/portfolio/engineer1.webp') ?>" class="img-fluid" alt="Engineer">
               <div class="portfolio-info">
                 <h4>Hardware Maintenance</h4>
                 <p>Maintain Server Hardware in Puspem Kota Tangerang </p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/engineer1.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/engineer1.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -583,12 +520,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-hardware">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/engineer4.webp" class="img-fluid" alt="Engineer">
+              <img src="<?= site_url('_/img/portfolio/engineer4.webp') ?>" class="img-fluid" alt="Engineer">
               <div class="portfolio-info">
                 <h4>Hardware Troubleshooting</h4>
                 <p>Troubleshooting or Repairing PC</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/engineer4.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/engineer4.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -597,12 +534,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-hardware">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/engineer3.webp" class="img-fluid" alt="Engineer">
+              <img src="<?= site_url('_/img/portfolio/engineer3.webp') ?>" class="img-fluid" alt="Engineer">
               <div class="portfolio-info">
                 <h4>PC Software Maintenance</h4>
                 <p>Maintain PC's software</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/engineer3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
+                  <a href="<?= site_url('_/img/portfolio/engineer3.webp') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineer"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
@@ -730,7 +667,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7424981301924!2d106.60712531409087!3d-6.165228862136257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff3f1cec1c43%3A0x891a4bf037d58207!2sJl.%20Perumahan%20Pd.%20Arum%20Blok%20F3%20No.9%2C%20RT.002%2FRW.4%2C%20Nambo%20Jaya%2C%20Kec.%20Karawaci%2C%20Kota%20Tangerang%2C%20Banten%2015112!5e0!3m2!1sid!2sid!4v1641357037464!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7424981301924!2d106.60712531409087!3d-6.165228862136257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff3f1cec1c43%3A0x891a4bf037d58207!2sJl.%20Perumahan%20Pd.%20Arum%20Blok%20F3%20No.9%2C%20RT.002%2FRW.4%2C%20Nambo%20Jaya%2C%20Kec.%20Karawaci%2C%20Kota%20Tangerang%2C%20Banten%2015112!5e0!3m2!1sid!2sid!4v1641357037464!5m2!1sid!2sid" width="100%" height="300" class="border-0" allowfullscreen="" loading="lazy"></iframe>
 
           </div>
 
@@ -740,47 +677,3 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Muhammad Ridwan Na'im</h3>
-      <p>Jadilah bermanfaat tanpa harus dimanfaatkan!<br/>
-      <em>Be useful without having to be used!</em></p>
-      <div class="social-links">
-        <a href="https://instagram.com/__debu_semesta" class="instagram" target="_blank" rel="noopener"><i class="bx bxl-instagram"></i></a>
-        <a href="https://rootdicalism.wordpress.com/" class="" target="_blank" rel="noopener"><i class="bx bx-globe"></i></a>
-        <a href="https://www.linkedin.com/in/ridwan-naim-8166a4124/" class="linkedin" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>Muhammad Ridwan Na'im</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
