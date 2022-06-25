@@ -229,7 +229,7 @@ switch (ENVIRONMENT)
 	            isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
 	            $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') ? 'https://' : 'http://';
 
-	$webdir   = '/cv';
+	$webdir   = '';
 
 	define('BASE_URL', $protocol . $_SERVER['SERVER_NAME'] . $webdir);
 	
